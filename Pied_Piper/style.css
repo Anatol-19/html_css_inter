@@ -1,15 +1,32 @@
-all_page {
-    overflow: auto;
-    max-width: 70%;
-   }
-
-.header_base {
-    Height: 84px;
-    width: 100%;
+header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
     background-color: #007765;
-    position: fixed;
+  }
+
+.menu {
+    display: inline-block;
+    flex-grow: 1;
 }
 
-.header {
-    display: inline-block;
-}
+.menu ul {
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .menu li {
+    margin-right: 20px;
+  }
+  .menu li:last-child {
+    margin-right: 0;
+  }
+  .menu a {
+    padding: 8px 10px;
+  }
+  .logo {
+    margin-right: 30px;
+  }
