@@ -1,0 +1,26 @@
+div.paragraph {
+    font-size: 24px;
+    font-family: Arial;
+    margin-bottom: 10px;
+    color: darkblue;
+}
+h1.header {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: darkgrey;
+    margin-bottom: 80px;
+}
+#my_photo {
+    float: left;
+    margin-right: 20px;
+}
+.course {
+    font-style: italic;
+    color: darkgreen;
+}
+
+.name {
+    font-weight: bold;
+    color: darkviolet;
+}
